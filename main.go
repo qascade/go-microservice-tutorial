@@ -22,7 +22,7 @@ func main() {
 	s := &http.Server{
 		Addr:         ":9090",
 		Handler:      sm,
-		IdleTimeout:  120 * time.Second,
+		IdleTimeout:  118 * time.Second,
 		ReadTimeout:  1 * time.Second,
 		WriteTimeout: 1 * time.Second,
 	}
